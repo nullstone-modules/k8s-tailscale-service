@@ -1,0 +1,18 @@
+org_name: nullstone
+name: k8s-tailscale-service
+friendly_name: Kubernetes Tailscale Service
+description: Exposes a Kubernetes app's service to a Tailscale network
+category: capability
+subcategory: ingress
+provider_types:
+    - aws
+    - gcp
+platform: k8s
+subplatform: tailscale
+type: ""
+appCategories:
+    - container
+is_public: true
+tool_name: opentofu
+include: []
+source_url: https://github.com/nullstone-modules/k8s-tailscale-service
